@@ -1,0 +1,8 @@
+entity UserLogin {
+	msisdn Long,
+	password String
+}
+
+relationship ManyToOne {
+	UserLogin{user} to User
+}

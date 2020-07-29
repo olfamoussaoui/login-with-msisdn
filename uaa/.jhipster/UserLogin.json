@@ -1,0 +1,31 @@
+{
+  "name": "UserLogin",
+  "fields": [
+    {
+      "fieldName": "msisdn",
+      "fieldType": "String"
+    }
+  ],
+  "relationships": [
+    {
+      "relationshipType": "many-to-one",
+      "otherEntityName": "user",
+      "otherEntityRelationshipName": "userLogin",
+      "relationshipName": "user",
+      "otherEntityField": "id"
+    }
+  ],
+  "changelogDate": "20200720205344",
+  "entityTableName": "user_login",
+  "dto": "no",
+  "pagination": "no",
+  "service": "no",
+  "jpaMetamodelFiltering": false,
+  "fluentMethods": true,
+  "readOnly": false,
+  "embedded": false,
+  "applications": "*",
+  "searchEngine": false,
+  "databaseType": "sql",
+  "microserviceName": "uaa"
+}

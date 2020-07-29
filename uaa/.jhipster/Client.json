@@ -1,0 +1,42 @@
+{
+  "name": "Client",
+  "fields": [
+    {
+      "fieldName": "datenaissance",
+      "fieldType": "ZonedDateTime"
+    },
+    {
+      "fieldName": "sexe",
+      "fieldType": "String"
+    },
+    {
+      "fieldName": "profession",
+      "fieldType": "String"
+    },
+    {
+      "fieldName": "ville",
+      "fieldType": "String"
+    }
+  ],
+  "relationships": [
+    {
+      "relationshipType": "one-to-one",
+      "otherEntityName": "user",
+      "otherEntityRelationshipName": "client",
+      "relationshipName": "user",
+      "otherEntityField": "id",
+      "ownerSide": true
+    }
+  ],
+  "changelogDate": "20200710103419",
+  "entityTableName": "client",
+  "dto": "no",
+  "pagination": "no",
+  "service": "no",
+  "jpaMetamodelFiltering": false,
+  "fluentMethods": true,
+  "readOnly": false,
+  "embedded": false,
+  "clientRootFolder": "",
+  "applications": "*"
+}

@@ -1,0 +1,40 @@
+{
+  "generator-jhipster": {
+    "promptValues": {
+      "packageName": "com.keyrus.recommender",
+      "nativeLanguage": "fr"
+    },
+    "jhipsterVersion": "6.10.1",
+    "applicationType": "uaa",
+    "baseName": "uaa",
+    "packageName": "com.keyrus.recommender",
+    "packageFolder": "com/keyrus/recommender",
+    "serverPort": "9999",
+    "authenticationType": "uaa",
+    "cacheProvider": "hazelcast",
+    "enableHibernateCache": true,
+    "websocket": false,
+    "databaseType": "sql",
+    "devDatabaseType": "h2Disk",
+    "prodDatabaseType": "postgresql",
+    "searchEngine": false,
+    "messageBroker": false,
+    "serviceDiscoveryType": "eureka",
+    "buildTool": "maven",
+    "enableSwaggerCodegen": false,
+    "jwtSecretKey": "OTA0NjAxOGNjODcyMzhmOGI1MTQzZTQxY2Y1Yjk2NzQzOWVlZmQxYjFiZmU4YjE4YThhM2RkZjY0MzNjZWYzN2NjMzIxM2ZiYjkxMzg5YjUzMGY2MWU4YzIxMjNjNjFjZGNmNzY5OTk0N2U2YjRhMGY5ZDg0NWQ2NTllYmQ4NjE=",
+    "embeddableLaunchScript": false,
+    "creationTimestamp": 1594376704271,
+    "testFrameworks": [],
+    "jhiPrefix": "jhi",
+    "entitySuffix": "",
+    "dtoSuffix": "DTO",
+    "otherModules": [],
+    "enableTranslation": true,
+    "clientPackageManager": "npm",
+    "nativeLanguage": "fr",
+    "languages": ["fr"],
+    "blueprints": [],
+    "skipClient": true
+  }
+}
